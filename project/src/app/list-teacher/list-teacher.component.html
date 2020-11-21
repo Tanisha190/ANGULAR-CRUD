@@ -1,0 +1,22 @@
+<div class="container">
+  <h2>Teacher's List</h2>
+  <table class="table table-bordered">
+    <thead>
+        <tr>
+            <td>Name</td>
+            <td>DOB</td>
+            <td>SpecialEducation</td>
+            <td>Remedial</td>
+            <td>SpeechTherapy</td>
+          </tr>
+      <tr *ngFor="let fin of final">
+        <th>{{fin.name}}</th>
+        <th>{{fin.dob}}</th>
+        <th>{{fin.SpecialEducation}}</th>
+        <th>{{fin.Remedial}}</th>
+        <th>{{fin.SpeechTherapy}}</th>
+      </tr>
+    </thead>
+    
+  </table>
+</div>
